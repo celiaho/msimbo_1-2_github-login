@@ -40,17 +40,29 @@ This is MSIMBO's Phase 1, Section 1, Class Demo: an attempt to rebuild the Githu
     - [x] Commit to Git on my local VS Code
     - [x] Push GitHub
 
-- Commit 4: added page description
+- Commit 14?: added page description
     - [x] Add `p` tag describing what the page is about
     - [x] Emphasize some section of the text
     - [x] Commit to Git (locally)
 
-- Commit 5: added form boilerplate
+- Commit 14?: added form boilerplate
     - [x] Add the *boilerplate* for our **form**
     - [x] Add form text
         - [x] Username or email address
         - [x] Password / <a href="http://github.com/password_reset">Forgot password?</a>
         - [x] Sign in button
         - [x] New to GitHub? <a href="http://github.com/signup?source=login">Create an account</a>. 
-- Commit to Git (locally)
+    - Commit to Git (locally)
     
+- Commit 15 (Class 6): added more notes to `readme`
+
+- Commit 16 (Class 7): added some HTML form input
+    - [x] Add an input to our form
+    - [x] Add attribute to our form
+    - [] Commit (Stage + Commit with a message) our work (locally) 
+
+- Commit 17 (Class 8):
+    - [] Add 1 more additional file
+    - [] Add some stuff to the file
+    - [] Commit our work
+    - [] Push all our work to GitHub

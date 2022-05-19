@@ -21,7 +21,7 @@
         Our home page login that lets you log in to a page.
     </p>
 
-    <form action="/actionpage.php">
+    <form action="# /actionpage.php">
 
         <label for="username">Username or email address</label><br>
         <input type="text" id="username" name="username"></label><br><br>
@@ -30,9 +30,15 @@
           <a href="http://github.com/password_reset">Forgot password?</a></br>
         <input type="text" id="password" name="password"></label><br><br>
         
-        <input type="signin" value="Sign in">
+        <!-- Convert to button --> <input type="signin" value="Sign in">
         
-    </form>
+    <p>
+        <input type="email" name="user-email" id="user-email" placeholder="Enter your email address">
+        <input type="password" name="user-password" id="password" placeholder="Enter your password">
+        <input type="submit" value="Login Here">
+    </p>
+    
+</form>
     
     <!-- 
     # Username or email address
