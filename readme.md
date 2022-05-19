@@ -1,6 +1,5 @@
 ## About
-## MSIMBO Phase 1, Section 1, Class Demo
-An attempt to rebuild Github login page
+This is MSIMBO Phase 1, Section 1, Class Demo, an attempt to rebuild the Github login page.
 
 ## GitHub URL
 <a href="http://github.com/celiaho/msimbo_1-2_github-login" target="_blank">http://github.com/celiaho/msimbo_1-2_github-login</a>
