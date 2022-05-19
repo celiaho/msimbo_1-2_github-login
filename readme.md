@@ -59,7 +59,7 @@ This is MSIMBO's Phase 1, Section 1, Class Demo: an attempt to rebuild the Githu
 - Commit 16 (Class 7): added some HTML form input
     - [x] Add an input to our form
     - [x] Add attribute to our form
-    - [] Commit (Stage + Commit with a message) our work (locally) 
+    - [x] Commit (Stage + Commit with a message) our work (locally) 
 
 - Commit 17 (Class 8):
     - [] Add 1 more additional file
