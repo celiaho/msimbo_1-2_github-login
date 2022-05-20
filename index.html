@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in to GitHub - GitHub</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign in to GitHub - GitHub</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-    <button class=""button button1">Blue</button>
+    <body>
+        <!-- header -->
+        <div>
+            <a href="https://github.com"><img src="http://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub logo" height="50"></a>
 
-    <img src="http://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub logo" height="50">
+            <h1>Sign in to GitHub</h1>
 
-    <h1>Sign in to GitHub</h1>
+            <!-- Header / Class Notes
+            <p>Our <strong>home page</strong> login that <em>lets you log in to a page</em></p>
+            <p>Our home page login that lets you log in to a page.</p>
+            <p><a href="about.html target="new">About Us</a></p>
+            -->
+        </div>
+        <!-- // END header -->
 
-    <p>
-        Our <strong>home page</strong> login that <em>lets you log in to a page</em>
-    </p>
+        <!-- form -->
+        <div>
+            <form action="#">
 
-    <p>
-        Our home page login that lets you log in to a page.
-    </p>
+                <label for="username">Username or email address</label><br>
+                <input type="text" name="username" id="username"></label><br><br>
 
-    <p><a href="about.html target="new">About Us</a></p>
+                <label for="password">Password</label> 
+                <a href="http://github.com/password_reset">Forgot password?</a></br>
+                <input type="password" name="password" id="password"></label><br><br>
+                
+                <input type="submit" value="Sign in">
+                
+            </form>
+        </div>
+        <!-- // END form -->
 
-    <form action="# /actionpage.php">
+        <!-- subfooter -->
+        <div>
+            <p>
+                New to GitHub? <a href="http://github.com/signup?source=login">Create an account</a>. 
+            </p>
+        </div>
+        <!-- // END subfooter -->
 
-        <label for="username">Username or email address</label><br>
-        <input type="text" id="username" name="username"></label><br><br>
-        
-        <label for="password">Password</label> 
-          <a href="http://github.com/password_reset">Forgot password?</a></br>
-        <input type="text" id="password" name="password"></label><br><br>
-        
-        <!-- Convert to button --> <input type="signin" value="Sign in">
-        
-    <p>
-        <input type="email" name="user-email" id="user-email" placeholder="Enter your email address">
-        <input type="password" name="user-password" id="password" placeholder="Enter your password">
-        <input type="submit" value="Login Here">
-    </p>
-    
-</form>
-    
-    <!-- 
-    # Username or email address
-    # Password / <a href="http://github.com/password_reset">Forgot password?</a>
-    # sign in button
+        <!-- footer -->
+        <div>
+                <p><a href="http://github.com/site/terms">Terms</a></p>
+                <p><a href="http://github.com/site/privacy">Privacy</a></p>
+                <p><a href="http://docs.github.com/articles/github-security/">Security</a></p>
+                <p><a href="http://github.com/contact">Contact GitHub</a></p>
+        </div>
+        <!-- // END footer -->
 
-    # New to GitHub? <a href="http://github.com/signup?source=login">Create an account</a>. 
-    -->
-
-    <p><a href="http://github.com/site/terms">Terms</a> <a href="http://github.com/site/privacy">Privacy</a> <a href="http://docs.github.com/articles/github-security/">Security</a> <a href="http://github.com/contact">Contact GitHub</a></p>
-</body>
+    </body>
 
 </html>

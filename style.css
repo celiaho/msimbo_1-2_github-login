@@ -1,3 +1,10 @@
 body {
+    /* the trick to centering anything with CSS */
+    /* ### Not working
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* the trick ends here */
     background: teal;
+    font-family: sans-serif;
 }

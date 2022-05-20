@@ -1,5 +1,6 @@
 ## About
-This is MSIMBO's Phase 1, Section 1, Class Demo: an attempt to rebuild the Github login page (<a href="http://github.com/login" target="_blank">http://github.com/login</a>).
+This project replicates the Github login page: <a href="http://github.com/login" target="_blank">http://github.com/login</a> (MSIMBO Phase 1, Section 1, Class Demo).
+![](https://i.imgur.com/MNeEdF0.png)
 
 ## GitHub URL
 <a href="http://github.com/celiaho/msimbo_1-2_github-login" target="_blank">http://github.com/celiaho/msimbo_1-2_github-login</a>
@@ -64,5 +65,7 @@ This is MSIMBO's Phase 1, Section 1, Class Demo: an attempt to rebuild the Githu
 - Commit 17 (Class 8):
     - [] Add 1 more additional file
     - [] Add some stuff to the file
+    - [] Clean up HMTL
+    - [] Center page with CSS
     - [] Commit our work
     - [] Push all our work to GitHub
