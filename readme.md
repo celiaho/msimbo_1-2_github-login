@@ -6,7 +6,7 @@ This project replicates the Github login page: <a href="http://github.com/login"
 <a href="http://github.com/celiaho/msimbo_1-2_github-login" target="_blank">http://github.com/celiaho/msimbo_1-2_github-login</a>
 
 ## Vercel URL
-<a href="http://1-2-github-login.vercel.app/" target="_blank">Go here to view preview in Vercel</a>
+Click here to preview in Vercel: <a href="http://1-2-github-login.vercel.app/" target="_blank">http://1-2-github-login.vercel.app/</a>
 
 
 ## Methods
@@ -63,9 +63,10 @@ This project replicates the Github login page: <a href="http://github.com/login"
     - [x] Commit (Stage + Commit with a message) our work (locally) 
 
 - Commit 17 (Class 8):
-    - [] Add 1 more additional file
-    - [] Add some stuff to the file
-    - [] Clean up HMTL
+    - [x] Delete extraneous class demo files
+    - [x] Clean up HMTL
     - [] Center page with CSS
-    - [] Commit our work
-    - [] Push all our work to GitHub
+    - [] Commit work (locally)
+    - [] Push all work to GitHub
+
+    

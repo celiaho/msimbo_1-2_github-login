@@ -10,54 +10,61 @@
     </head>
 
     <body>
-        <!-- header -->
         <div>
-            <a href="https://github.com"><img src="http://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub logo" height="50"></a>
+            <!-- header -->        
+            <div id="header">
+                <a href="https://github.com"><img src="http://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub logo" height="50"></a>
 
-            <h1>Sign in to GitHub</h1>
+                <h1>Sign in to GitHub</h1>
 
-            <!-- Header / Class Notes
-            <p>Our <strong>home page</strong> login that <em>lets you log in to a page</em></p>
-            <p>Our home page login that lets you log in to a page.</p>
-            <p><a href="about.html target="new">About Us</a></p>
-            -->
+                <!-- Header / Class Notes
+                <p>Our <strong>home page</strong> login that <em>lets you log in to a page</em></p>
+                <p>Our home page login that lets you log in to a page.</p>
+                <p><a href="about.html target="new">About Us</a></p>
+                -->
+            </div>
+            <!-- // END header -->
+
+            <!-- form -->
+            <div id="form">
+                <form action="#" method="get" class="form-example">
+
+                    <div class="username">
+                        <label for="username">Username or email address</label><br>
+                        <input type="text" name="username" id="username"></label><br><br>
+                    </div>
+
+                    <div class="password">
+                        <label for="password">Password</label> 
+                        <a href="http://github.com/password_reset">Forgot password?</a></br>
+                        <input type="password" name="password" id="password"></label><br><br>
+                    </div>
+
+                    <div class="sign-in">
+                        <input type="submit" value="Sign in">
+                    </div>
+
+                </form>
+            </div>
+            <!-- // END form -->
+
+            <!-- subfooter -->
+            <div id="subfooter">
+                <p>
+                    New to GitHub? <a href="http://github.com/signup?source=login">Create an account</a>. 
+                </p>
+            </div>
+            <!-- // END subfooter -->
+
+            <!-- footer -->
+            <div id="footer">
+                    <div><a href="http://github.com/site/terms">Terms</a></div>
+                    <div><a href="http://github.com/site/privacy">Privacy</a></div>
+                    <div><a href="http://docs.github.com/articles/github-security/">Security</a></div>
+                    <div><a href="http://github.com/contact">Contact GitHub</a></div>
+            </div>
+            <!-- // END footer -->
         </div>
-        <!-- // END header -->
-
-        <!-- form -->
-        <div>
-            <form action="#">
-
-                <label for="username">Username or email address</label><br>
-                <input type="text" name="username" id="username"></label><br><br>
-
-                <label for="password">Password</label> 
-                <a href="http://github.com/password_reset">Forgot password?</a></br>
-                <input type="password" name="password" id="password"></label><br><br>
-                
-                <input type="submit" value="Sign in">
-                
-            </form>
-        </div>
-        <!-- // END form -->
-
-        <!-- subfooter -->
-        <div>
-            <p>
-                New to GitHub? <a href="http://github.com/signup?source=login">Create an account</a>. 
-            </p>
-        </div>
-        <!-- // END subfooter -->
-
-        <!-- footer -->
-        <div>
-                <p><a href="http://github.com/site/terms">Terms</a></p>
-                <p><a href="http://github.com/site/privacy">Privacy</a></p>
-                <p><a href="http://docs.github.com/articles/github-security/">Security</a></p>
-                <p><a href="http://github.com/contact">Contact GitHub</a></p>
-        </div>
-        <!-- // END footer -->
-
     </body>
 
 </html>
