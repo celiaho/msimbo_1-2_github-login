@@ -4,43 +4,165 @@ body {
     justify-content: center;
     align-items: center;
     /* the trick ends here */
-    background: teal;
-    font-family: sans-serif;
-}
-   
-div {
-    display: flex;
-    flex-direction: column;
+    font-family: 'Segoe UI',sans-serif;
 }
 
-div#header img {
+a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #4D93E2;
+}
+
+/** CSS Syntax Convention:
+    - Box model first (inside to outside)
+        - item + padding + border + margin
+    - Then everything else (like background & text styling)
+**/
+
+#header {
+    padding: 0px; /* inside space */
+    margin: 0px; /*outside space */
+    background: white;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    text-align: center;
+}
+
+#header img {
+    padding: 0px;
+    margin: 5px;
     width: 50px;
-    margin: 20px;
 }
 
-div#form {
-    background-color: gray;
-    border: 3px solid;
-    border-style: solid;
-    border-width: 0.5px;
-    outline: 0.5px;
-    border-radius: ;
+#form {
     padding: 20px; /* inside space */
-    margin: 10px; /* outside space */
-}
-
-#subfooter {
-    border: 3px solid;
+    border: 1px solid #D8DEE4; /*check*/
+    border-radius: 5px;
     border-style: solid;
     border-width: 0.5px;
     outline: 0.5px;
-    border-radius: ;
-    padding: 20px;
-    margin: 10px;
+
+    margin: 10px; /* outside space */
+    background-color: #F6F8FA; /*github gray*/
 }
 
-#footer {
+#form input {
+    border: 1px solid #D0D7DE;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+/* #form div {
     display: flex;
-    flex-direction: column-reverse;
     justify-content: space-between;
+} */
+
+#form input[type="text"]{
+    margin-top: 10px;
+}
+
+#form input[type="submit"]{
+    background: #2DA44E;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* NOTES */
+#form input[type="submit"]:hover {
+    background: #217839;
+    cursor: pointer;
+
+}
+
+.no-border {
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#username {
+    /* background: gray; */
+    /* border-top: 0;
+    border-bottom: 1px solid red; */
+    display: flex;
+}
+
+#password-prompt {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* for the "input" tag inside an alias called #header apply these styles */
+#parent input {}
+
+#submit {
+    background: #2CA54E;
+    width: 100px;
+    height: 50px; /* */
+    /* margin-top: 20px; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20 px; */
+    /* padding: 20px 0px; TB LR */
+    border: 1px solid red;
+    margin: 50px; 
+}
+
+#sign-in {
+    color: white;
+
+}
+
+/*** Tip: To center a div, set width & "margin: auto". Commented out because replaced with "#form input" ***/
+    /* width: 350px; 
+    margin: auto; */
+/*** end tip ***/
+#subfooter {
+    margin: 10px;
+    padding: 15px 10px;
+    border: 3px solid #D0D7DE;
+    border-style: solid;
+    border-width: 0.5px;
+    outline: 0.5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#subfooter-text {
+    display: flex;
+    justify-content: space-around; gap: 1px;
+    align-items: center;
+}
+
+/* Block elements take up the whole line (e.g. "<p>"); in-line elements take up just the necessary space (e.g. "<a href>" */
+#footer {
+    border: 3px dashed;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+
+/* NOTE */
+#footer p {
+    color: #C5C9CB;
+}
+
+#subfooter a:hover, #footer a:hover {
+    text-decoration: underline;
+}
+
+/* Extraneous */
+.show-border {
+    border: 2px solid red;
+    /* display: inline;
+    display: block;
+    display: flex */
 }

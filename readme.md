@@ -69,4 +69,7 @@ Click here to preview in Vercel: <a href="http://1-2-github-login.vercel.app/" t
     - [] Commit work (locally)
     - [] Push all work to GitHub
 
-    
+- Commit ?: 
+    - [x] Demarcate boxes
+    - [x] Center content in header, subfooter, footer
+    - [] 
